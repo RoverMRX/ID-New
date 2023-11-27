@@ -18,15 +18,22 @@ h2 {
 
 /*Задаем градиент и заливку текстурой для шапки и футера*/
 body {
-    background: url(../img/bg.svg) #151517;
+   /* background: url(../img/bg.svg) #151517; */
+
+   background-color: #151517;
+   background-image: url(../img/ellipses.png);
     margin: 0;
-    background-size: cover!important; 
+    background-size: cover; 
     font-family: "Rubik", sans-serif;
     font-size: 20px;
 }
 
 .prices, .mp-game {
-    background: #fff;
+    
+    background: url(../img/ellipses.png) #fff;
+    background-size: cover; 
+    
+    
 }
 .event-price h2 {
     color: white;
@@ -151,7 +158,9 @@ body {
   }
 
   #btn-back-to-top {
-    background-color: purple;
+    background: rgb(164,50,172);
+    background: linear-gradient(90deg, rgba(164,50,172,1) 0%, rgba(113,0,113,0.7147233893557423) 100%);
+    border-color: purple;
     position: fixed;
     bottom: 20px;
     right: 20px;
