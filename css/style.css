@@ -53,6 +53,7 @@ body {
     font-size: 25px;
     border-radius: 10px;
     margin: 5px 5px 5px 5px;
+    text-shadow: 1px 1px 2px black;
 
     
   }
@@ -61,6 +62,7 @@ body {
         color:white;
         margin-bottom: 10px;
     border-bottom: 2px solid white;
+    
   }
 
 .price-block {
@@ -74,6 +76,7 @@ body {
     font-size: 25px;
     border-radius: 10px;
     margin: 5px 5px 5px 5px;
+    
 
     
   }
